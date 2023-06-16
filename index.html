@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina pracatica</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/movil.css">
+    <!-- ESTILO DE LETRAS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- barra de navegacion -->
+    <header>
+        <div class="logo_barra">
+            <a href="#">GERZON</a>
+        </div>
+        <div class="icono_movil">
+            <img src="images/menu.svg" alt="barra de menu" class="menu">
+        </div>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Acerca de</a>
+            <a href="#">Contacto</a>
+            <a href="#">Blog</a>
+            <img src="images/close.svg" alt="equis" class="close_movil">
+        </nav>
+    </header>
+    <!-- CUERPO DE LA PAGINA -->
+    <main>
+        <section class="parte_uno">
+            <img src="images/computer.jpg" alt="imagnen principal de la pagina">
+            <span class="fondo"></span>
+            <div class="texto_parte_uno">
+                <h1>Aprende CSS3 desde CERO hasta dominarlo.</h1>
+                <p>Elige aprender CSS de una vez por todas, una vez que termines este curso serás capaz de crear cualquier layout con CSS y crear tus propias animaciones.</p>
+                <a href="#">Comienza Ahora</a>
+            </div>
+        </section>
+        <section class="parte2">
+            <h2 class="title_parte2">¿Qué aprenderás en este curso?</h2>
+            <p class="parrafo_parte2">Todo lo necesario y obligatorio de CSS, (Flexbox, Grid, Custom properties, Position, Animaciones, Box Model y más)</p>
+
+            <div class="contenido_parte2">
+                <article>
+                    <img src="logos/shapes.svg" alt="">
+                    <h3>CSS Layouts</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae tempore porro eius facilis?</p>
+                </article>
+                <article>
+                    <img src="logos/paint.svg" alt="logo de paint">
+                    <h3>Animaciones</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae tempore porro eius facilis?</p>
+                </article>
+                <article>
+                    <img src="logos/code.svg" alt="logo de shapes">
+                    <h3>Sass</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae tempore porro eius facilis?</p>
+                </article>
+            </div>
+        </section>
+        <section class="parte_tres">
+            <div class="padding">
+                <div class="uno_parte_tres">
+                    <h2>Curso completo de CSS3. ¡Domina CSS de una vez por todas!</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, aliquam nemo in facere suscipit at delectus unde labore ad officia iste accusantium eaque aperiam laborum est voluptate totam? Modi, obcaecati?</p>
+                    <a href="#">Entra al Curso</a>
+                </div>
+                <div class="dos_parte_tres">
+                    <img src="images/macbook.png" alt="imagen de un computador">
+                </div>
+            </div>
+        </section>
+        <section class="parte_cuatro">
+            <h2>Obten el plan perfecto para aprender</h2>
+            <div class="tarjetas_parte_cuatro">
+                <div class="tarjeta_uno">
+                    <p class="uno">Flexbox</p>
+                    <h3>Free</h3>
+                    <p class="dos">Flexbox</p>
+                    <p class="tres">Layouts</p>
+                    <p class="cuatro">Resposive</p>
+                    <a href="#">Empieza ahora</a>
+                </div>
+                <div class="tarjeta_dos">
+                    <p class="uno">Grid</p>
+                    <h3>$30/mes</h3>
+                    <p class="dos">Grid</p>
+                    <p class="tres">Implicit Grid</p>
+                    <p class="cuatro">Resposive</p>
+                    <a href="#">Empieza ahora</a>
+                </div>
+                <div class="tarjeta_tres">
+                    <p class="uno">Animaciones</p>
+                    <h3>$40/mes</h3>
+                    <p class="dos">Animaciones</p>
+                    <p class="tres">Transition</p>
+                    <p class="cuatro">Render Wibside</p>
+                    <a href="#">Empieza ahora</a>
+                </div>
+            </div>
+        </section>
+        <section class="slider_cinco">
+            <i class="fa-solid fa-arrow-left derecha" onclick="prev()"></i>
+            <i class="fa-solid fa-arrow-right izquierda" onclick="next()"></i>
+            <section class="parte_cinco">
+                <div class="contenido_parte_cinco">
+                    <article class="slider">
+                        <div class="contenido_text">
+                            <h3>Mi nombre es Jordan Alexander,<br> <span>estudiante de CSS.</span></h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est esse, asperiores eaque totam nulla repudiandae quasi, deserunt culpa exercitationem blanditiis laborum veniam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p>
+                        </div>
+                        <figure>
+                            <img src="images/face.jpg" alt="">
+                        </figure>
+                    </article>
+                    <article class="slider">
+                        <div class="contenido_text">
+                            <h3>Mi nombre es Alejandra Perez,<br> <span>estudiante de CSS.</span></h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est esse, asperiores eaque totam nulla repudiandae quasi, deserunt culpa exercitationem blanditiis laborum veniam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p>
+                        </div>
+                        <figure>
+                            <img src="images/face2.jpg" alt="">
+                        </figure>
+                    </article>
+                    <article class="slider">
+                        <div class="contenido_text">
+                            <h3>Mi nombre es Karen Arteaga,<br> <span>estudiante de CSS.</span></h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est esse, asperiores eaque totam nulla repudiandae quasi, deserunt culpa exercitationem blanditiis laborum veniam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p>
+                        </div>
+                        <figure>
+                            <img src="images/face3.jpg" alt="">
+                        </figure>
+                    </article>
+                </div>
+            </section>
+        </section>
+        <section class="parte_seis">
+            <h2 class="title_seis">Preguntas frecuentes</h2>
+            <p class="parrafo_seis">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, porro doloribus neque perspiciatis sapiente fuga.</p>
+            <div class="preguntas">
+                <article>
+                    <div class="contenido">
+                        <h3 class="title_preguntas">¿Qué es CSS? <span class="span"><img src="logos/arrow.svg" alt=""></span></h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque?</p>
+                    </div>
+                </article>
+                <article>
+                    <div class="contenido">
+                        <h3 class="title_preguntas">¿Qué aprenderé en este curso? <span class="span"><img src="logos/arrow.svg" alt=""></span></h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque?</p>
+                    </div>
+                </article>
+                <article>
+                    <div class="contenido">
+                        <h3 class="title_preguntas">¿Qué es CSS GRID? <span class="span"><img src="logos/arrow.svg" alt=""></span></h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque?</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="parte_siete">
+            <div>
+                <h2>¿Estas listo para aprender CSS?</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet ratione architecto magnam, officiis ex porro vero est voluptates quaerat quibusdam illo veniam reprehenderit eius atque tempora iure ab non autem.</p>
+                <a href="#">aprende ahora</a>
+            </div>
+        </section>
+    </main>
+    <!-- footer de la pagina -->
+    <footer>
+        <div class="container_footer">
+            <div class="parte_uno_footer">
+                <div class="bloque_uno">
+                    <p>Curso CSS.</p>
+                    <nav class="footer_nav">
+                        <a href="#">Inicio</a>
+                        <a href="#">Acerca de</a>
+                        <a href="#">Contacto</a>
+                        <a href="#">blog</a>
+                    </nav>
+                </div>
+                <div class="bloque_dos">
+                    <b>Suscribete a la newsletter</b>
+                    <form action="" method="post">
+                        <input type="email" placeholder="Email">
+                        <button type="submit">Registrate</button>
+                    </form>
+                </div>
+            </div>
+            <div class="parte_dos_footer">
+                <p>
+                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg></a>
+                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg></a>
+                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg></a>
+                </p>
+                Derechos reservados © Gerzon Rangel
+            </div>
+        </div>
+    </footer>
+
+    <!-- iconos -->
+    <script src="https://kit.fontawesome.com/eb6a24b9c8.js" crossorigin="anonymous"></script>
+    <!-- linkiar java -->
+    <script src="java/java.js"></script>
+</body>
+</html>

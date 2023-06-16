@@ -1,0 +1,248 @@
+@media (max-width: 499.98px) {
+    header nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: black;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 1s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+        font-size: 2em;
+    }
+    header nav img{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        width: 40px;
+    }
+    header .nav_menu{
+        opacity: 1;
+        pointer-events: painted;
+        transition: opacity .5s;
+    }
+    header .icono_movil,
+    header nav .close_movil{
+        display: block;
+    }
+    header{
+        padding: 20px;
+    }
+    header .logo_barra a{
+        font-size: 1.5em;
+    }
+    header .icono_movil img{
+        width: 2.2em;
+    }
+    main .parte_uno .texto_parte_uno h1 {
+        font-size: 1.5em;
+    }
+    main .parte_uno .texto_parte_uno p{
+        font-size: 1.2em;
+    } 
+    main .parte_tres .uno_parte_tres,
+    main .parte_tres .dos_parte_tres {
+        width: 100%;
+    }
+    main article img {
+        width: 20%;
+    }
+    main .parte_cinco .contenido_parte_cinco article .contenido_text {
+        width: 100%;
+    }
+    main .parte_cinco .contenido_parte_cinco article div h3 {
+        font-size: 1em;
+    }
+    main .parte_cinco .contenido_parte_cinco article div p {
+        font-size: .6em;
+    }
+    main .parte_cinco .contenido_parte_cinco article figure {
+        width: 170px;
+        height: 170px;
+    }
+    main .parte_cinco .contenido_parte_cinco article {
+        justify-content: center;
+        text-align: center;
+        gap: 10px;
+    }
+    main .parte_seis .title_seis, main .parte_seis .parrafo_seis {
+        font-size: 1.4em;
+        line-height: 1.1;
+    }
+    main .parte_seis .preguntas article p {
+        font-size: .9em;
+    }
+    main .parte_seis .preguntas article h3{
+        font-size: .7em;
+    }
+    main .parte_siete div h2 {
+        font-size: 1.2em;
+    }
+    main .parte_siete div p {
+        font-size: .7em;
+    }
+    main .parte_siete div a{
+        font-size: .9em;
+    }
+    footer .container_footer .parte_uno_footer .bloque_uno p {
+        font-size: 2em;
+    }
+    footer .container_footer .parte_uno_footer .bloque_uno nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    footer .container_footer .parte_uno_footer .bloque_dos form input {
+        width: 100%;
+    }
+    footer .container_footer .parte_dos_footer {
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 699.98px) {
+    header nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: black;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 1s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+        font-size: 2em;
+    }
+    header nav img{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        width: 40px;
+    }
+    header .nav_menu{
+        opacity: 1;
+        pointer-events: painted;
+        transition: opacity .5s;
+    }
+    header .icono_movil,
+    header nav .close_movil{
+        display: block;
+    }
+    header{
+        padding: 20px;
+    }
+    header .logo_barra a{
+        font-size: 2em;
+    }
+    header .icono_movil img{
+        width: 2.9em;
+    }
+    main .parte_uno .texto_parte_uno h1 {
+        font-size: 2em;
+    }
+    main .parte_uno .texto_parte_uno p {
+        font-size: 1em;
+    }
+    main .parte_tres .uno_parte_tres,
+    main .parte_tres .dos_parte_tres {
+        width: 100%;
+    }
+    main article img {
+        width: 15%;
+    }
+    main .parte_cinco .contenido_parte_cinco article .contenido_text {
+        width: 100%;
+    }
+    main .parte_cinco .contenido_parte_cinco article div h3 {
+        font-size: 2em;
+    }
+    main .parte_cinco .contenido_parte_cinco article div p {
+        font-size: 1em;
+    }
+    main .parte_cinco .contenido_parte_cinco article figure {
+        width: 200px;
+        height: 200px;
+    }
+    main .parte_cinco .contenido_parte_cinco article {
+        justify-content: center;
+        text-align: center;
+        gap: 10px;
+    }
+    main .parte_seis .title_seis, main .parte_seis .parrafo_seis {
+        font-size: 1.4em;
+        line-height: 1.1;
+    }
+    main .parte_seis .preguntas article p {
+        font-size: .9em;
+    }
+    main .parte_seis .preguntas article h3{
+        font-size: 1.3em;
+    }
+    main .parte_siete div h2 {
+        font-size: 2em;
+    }
+    main .parte_siete div p {
+        font-size: 1em;
+    }
+    main .parte_siete div a{
+        font-size: 1em;
+    }
+    footer .container_footer .parte_uno_footer .bloque_uno p {
+        font-size: 2em;
+    }
+    footer .container_footer .parte_uno_footer .bloque_uno nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    footer .container_footer .parte_dos_footer {
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 762px) {
+    main .parte_tres .uno_parte_tres,
+    main .parte_tres .dos_parte_tres {
+        width: 100%;
+    }
+    main .parte_tres .uno_parte_tres h2 {
+        font-size: 2.8em;
+    }
+    main .parte_tres .uno_parte_tres p {
+        font-size: 1.5em;
+    }
+}
+@media (min-width: 700px) and (max-width: 852px) {
+    main .parte_cinco .contenido_parte_cinco article .contenido_text {
+        width: 100%;
+    }
+    main .parte_cinco .contenido_parte_cinco article div h3 {
+        font-size: 2em;
+    }
+    main .parte_cinco .contenido_parte_cinco article div p {
+        font-size: 1em;
+    }
+    main .parte_cinco .contenido_parte_cinco article figure {
+        width: 200px;
+        height: 200px;
+    }
+    main .parte_cinco .contenido_parte_cinco article {
+        justify-content: center;
+        text-align: center;
+        gap: 10px;
+    }
+    main .parte_seis .title_seis, main .parte_seis .parrafo_seis {
+        line-height: 1.5;
+    }
+}

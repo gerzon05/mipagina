@@ -1,0 +1,441 @@
+:root{
+    --primario: red;
+    --color-title:#001A49;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+}
+/* ESTILOS BARRA DE NAVEGACIUON */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+header .logo_barra a{
+    text-decoration:none;
+    font-size: 2em;
+    color: white;
+}
+header .icono_movil,
+header nav .close_movil{
+    display: none;
+}
+header nav a{
+    color:white;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-right: 1em;
+}
+/* ESTILOS CUERPO DE LA PAGINA */
+
+/* PARTE UNO DE LA PAGINA */
+main .parte_uno{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
+}
+main .parte_uno img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 0;
+}
+main .parte_uno .fondo{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+main .parte_uno .texto_parte_uno{
+    min-width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+} 
+main .parte_uno .texto_parte_uno h1{
+    font-size: 3em;
+    margin-bottom: 30px;
+} 
+main .parte_uno .texto_parte_uno p{
+    font-size: 1.5em;
+    margin-bottom: 50px;
+} 
+main .parte_uno .texto_parte_uno a,
+main .parte_tres .uno_parte_tres a,
+main .parte_siete a{
+    font-size: 1em;
+    text-decoration: none;
+    color: white;
+    background-color: #2091F9;
+    min-width: 170px;
+    margin: 0 auto;
+    padding: 13px 30px;
+    border-radius: 32px;
+} 
+/* PARTE DOS DE LA PAGINA */
+main .parte2{
+    text-align: center;
+    padding: 10% 10% 5% 10%;
+}
+main .parte2 .title_parte2,
+main .parte_cuatro h2{
+    font-size: 1.8em;
+    font-weight: bold;
+    color: var(--color-title);
+}
+main .parte2 .parrafo_parte2{
+    font-size: 1em;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+main .contenido_parte2{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2em;
+    gap: 1.5em;
+    flex-wrap: wrap;
+}
+main article{
+    font-size: 1.1em;
+    width: 300px;
+}
+main article h3{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+main article img{
+    width: 10%;
+    margin: 0 auto;
+    color: #2091F9;
+}
+/*  PARTE TRES DE LA PAGINA*/
+main .parte_tres{
+    background-color: #e5e5f7;
+    background-image: radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+}
+main .parte_tres .padding{
+    padding: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+main .parte_tres .uno_parte_tres{
+    width: 50%;
+}
+main .parte_tres .uno_parte_tres h2{
+    font-size: 1.9em;
+    font-weight: 900;
+    color: var(--color-title);
+}
+main .parte_tres .uno_parte_tres p{
+    font-size: 1em;
+    line-height: 1.7;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+main .parte_tres .uno_parte_tres a{
+    margin: 0;
+    width: 180px;
+    text-align: center;
+}
+main .parte_tres .dos_parte_tres{
+    /* min-width: 240px;
+    max-width: 300px; */
+    width: 45%;
+}
+main .parte_tres .dos_parte_tres img{
+    width: 100%;
+    object-fit: cover;
+}
+/* PARTE CUATRO DE LA PAGINA */
+main .parte_cuatro{
+    padding: 7%;
+    text-align: center;
+}
+main .parte_cuatro h2{
+    margin-bottom: 40px;
+}
+main .tarjetas_parte_cuatro{
+    display: flex;
+    gap: 5em;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+main .tarjetas_parte_cuatro div{
+    width: 20.625em;
+    border-radius: 10px;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+main .tarjetas_parte_cuatro div:hover{
+    transform: scale(1.1);
+}
+main .tarjetas_parte_cuatro div p{
+    font-size: 1.3em;
+    font-weight: 10;
+}
+main .tarjetas_parte_cuatro div h3{
+    font-size: 2.5em;
+}
+main .tarjetas_parte_cuatro div a{
+    width: 100%;
+    border-radius: 10px;
+    padding: 7% 0;
+    text-decoration: none;
+    color:#5454D4;
+    font-weight: 600;
+    background-color: white;
+}
+main .tarjetas_parte_cuatro .tarjeta_uno,
+main .tarjetas_parte_cuatro .tarjeta_tres{
+    background-color: #e5e5f7;
+    box-shadow: 0 0 1px rgba(0, 0, 0, .5);
+}
+main .tarjetas_parte_cuatro .tarjeta_dos{
+    background-color: #FF7143;
+    color: white;
+}
+main .tarjetas_parte_cuatro .tarjeta_dos a{
+    background-color: #9F3919;
+    color: white;
+}
+/* PARTE CINCO DE LA PAGINA */
+main .slider_cinco{
+    background-color: #e5e5f7;
+    position: relative;
+}
+main .parte_cinco{
+    width: 80%;
+    padding: 70px 0;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+}
+main .slider_cinco .derecha{
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    font-size: 2rem;
+    cursor: pointer;
+}
+main .slider_cinco .izquierda{
+    position: absolute;
+    top: 50%;
+    right: 3%;
+    font-size: 2rem;
+    cursor: pointer;
+}
+main .parte_cinco .contenido_parte_cinco{
+    position: relative;
+    width: 300%;
+    display: flex;
+    align-items: center;
+    margin-left: -100%;
+}
+main .parte_cinco .contenido_parte_cinco article{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+main .parte_cinco .contenido_parte_cinco article .contenido_text{
+    width: 70%;
+}
+main .parte_cinco .contenido_parte_cinco article div h3{
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+main .parte_cinco .contenido_parte_cinco article div h3 span{
+    background-color: royalblue;
+    color: #fff;
+    display: inline-block;
+    padding: 5px;
+}
+main .parte_cinco .contenido_parte_cinco article div p{
+    font-size: 1em;
+}
+main .parte_cinco .contenido_parte_cinco article figure{
+    width: 200px;
+    height: 200px;
+}
+main .parte_cinco .contenido_parte_cinco article figure img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 50% 30%;
+}
+/* --- PARTE SEIS DE LA PAGINA --- */
+main .parte_seis{
+    padding: 8% 5%;
+}
+main .parte_seis .title_seis{
+    font-size: 2rem;
+    color: var(--color-title);
+}
+main .parte_seis .title_seis,
+main .parte_seis .parrafo_seis{
+    text-align: center;
+    line-height: 2;
+}
+
+main .parte_seis .preguntas{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 5%;
+}
+main .parte_seis .preguntas article{
+    border: 1px solid #5454D4;
+    border-radius: 6px;
+    width: 100%;
+    transition: padding .5s;
+}
+.questions__padding--add{
+    padding-bottom: 30px;
+}
+main .parte_seis .preguntas article .contenido{
+    padding: 20px 20px 0 20px;
+    overflow: hidden;
+}
+main .parte_seis .preguntas article h3{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    padding-bottom: 15px;
+    margin: 0;
+}
+main .parte_seis .preguntas article p{
+    text-align: left;
+    height: 0;
+    transition: height .5s;
+}
+main .parte_seis .preguntas article h3 span{
+    background-color: #001A49;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    transition:  transform .5s;
+}
+main .parte_seis .preguntas article h3 span img{
+    width: 100%;
+    transition: transform .8s;
+}
+.img_ratar{
+    transform: rotate(180deg);
+}
+/* PARTE SIETE DE LA PAGINA */
+main .parte_siete{
+    padding: 40px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+main .parte_siete div{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+main .parte_siete div h2{
+    color: var(--color-title);
+    font-size: 2.2em;
+}
+main .parte_siete div p{
+    font-size: 1.1em;
+}
+/* footer de la pagina */
+
+footer{
+    background-color: #1D293F;
+}
+footer .container_footer{
+    padding: 50px 50px 30px 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+footer .container_footer .parte_uno_footer{
+    padding: 10px 0 20px 0;
+    color: white;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+}
+footer .container_footer .parte_uno_footer .bloque_uno{
+    min-width: 174px;
+}
+footer .container_footer .parte_uno_footer .bloque_uno p{
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+footer .container_footer .parte_uno_footer .bloque_uno nav {
+    margin-bottom: 30px;
+}
+footer .container_footer .parte_uno_footer .bloque_uno nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 1.2em;
+}
+footer .container_footer .parte_uno_footer .bloque_dos{
+    min-width: 174px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: start;
+}
+footer .container_footer .parte_uno_footer .bloque_dos b{
+    font-size: 1.3em;
+}
+footer .container_footer .parte_uno_footer .bloque_dos form{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+footer .container_footer .parte_uno_footer .bloque_dos form input{
+    padding: 10px 5px;
+    border: 0;
+    border-radius: 6px;
+}
+footer .container_footer .parte_uno_footer .bloque_dos form button{
+    padding: 15px;
+    border: 0;
+    border-radius: 6px;
+    background-color: #2091F9;
+    color: white;
+}
+footer .container_footer .parte_dos_footer{
+    text-align: center;
+    font-size: 1.2em;
+}
+footer .container_footer .parte_dos_footer a{
+    margin-right: 10px;
+    font-size: 1.5em;
+}
